@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const tradesRoute = require("./routes/trades");
+const balanceRoute = require("./routes/balance");
 
 const app = express();
 app.use(express.json());
@@ -17,6 +18,7 @@ db.once("open", () => {
 });
 
 app.use("/api", tradesRoute);
+app.use("/api", balanceRoute);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
