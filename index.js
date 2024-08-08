@@ -2,11 +2,13 @@ const express = require("express");
 const mongoose = require("mongoose");
 const tradesRoute = require("./routes/trades");
 const balanceRoute = require("./routes/balance");
+const url =
+  "mongodb+srv://akshithamittapalli:FCQXU2iSASMOas0i@cluster0.4jwsi.mongodb.net/trades";
 
 const app = express();
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/tradesdb", {
+mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
