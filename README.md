@@ -1,6 +1,6 @@
 
 
-# Koinx-Assignemnt
+# Koinx-Assignment
 
 ## Overview
 
