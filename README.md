@@ -1,6 +1,6 @@
 
 
-# CSV Trade Data API
+# Koinx-Assignemnt
 
 ## Overview
 
@@ -130,7 +130,7 @@ The server will run on `http://localhost:3000` by default.
 
 
 
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+
 
 ---
 
